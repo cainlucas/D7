@@ -1,0 +1,149 @@
+body{
+    background-color: #ff0778;
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+h1{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sub-tittle{
+    color: white;
+}
+
+.ipt{
+    color: rgb(163, 159, 159);
+}
+
+p{
+    margin-left: 10px
+}
+
+.buscador{
+    display: flex;
+    flex-direction: column;
+    gap: 6%;
+    padding: 10px;
+    align-items: center;
+}
+
+form{
+    margin-top: 20px;
+    background-color: white;
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label{
+    display: block;
+    color: grey;
+}
+
+select, input{
+    height: 30px;
+}
+
+.imgone{
+max-width: 200px;
+width: 50%;
+height: fit-content;
+margin-left: 24px;
+}
+
+.title{
+    margin: 20px 10px 20px 10px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    border-color: yellow;
+    border-style: double;
+    height: 200px;
+    text-align: center;
+    max-width: max-content;
+    margin: auto;
+}
+
+a{
+    margin-right: 0;
+}
+
+.btn{
+    margin-top: 30px;
+    height: 30px;
+    background-color: #f26995;
+    border: 0;
+    color: white;
+}
+
+.footer_icones{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    
+}
+
+.icones{
+    width: 15px;
+    margin-left: 25px;
+}
+
+.porcentagem{
+    margin-left: 40px;
+}
+.footer_icones{
+bottom: 0px;
+position: absolute;
+width: 100%;
+}
+
+
+
+@media(min-width:800px){
+    body{
+        background-color: #ff0778;
+    }
+    form{
+    min-height: 400px;
+    max-width: 500px;    
+    };
+    a{
+     flex:end;
+     margin-right: 500px;
+    }
+    div.textos{
+    margin-bottom: 100px;
+    }
+    main.buscador{
+     margin-top: 300px;
+     size: 700px;
+    }
+    .header{
+        align-content: flex-end;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .btn{
+     font-size: 20px;
+    }
+    .sub-tittle{
+    font-size: 25px;
+    }
+}
